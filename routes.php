@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Our routes - Ereteti Sacco</title>
-     <script src="js/main.js" defer></script>
-</head>
-<body>
-    <header>
-        <h1>Ereteti Sacco</h1>
-        <p>Milk collected twice a day, on three routes out of Ngong.</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="routes.html">Our Routes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="register.html">Join</a></li>
-            <li><a href="deliveries.html">Deliveries</a></li>
-        </ul>
-    </nav>
+<?php
+
+$page_title = 'Our routes';
+
+include 'includes/header.php';
+
+?>
     <main>
         <label for="route-search">Find a route or a centre</label>
    <input type="search" id="route-search" placeholder="e.g. Kibiko">
@@ -51,9 +36,4 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <p>Ereteti Dairy Sacco, PO Box 4021, Ngong</p>
-        <p>Built Dramani Walter, 226954, DBT 1305</p><!--identifies the site builder-->
-    </footer><!--Ends footer section-->
-</body>
-</html>
+  <?php include 'includes/footer.php'; ?>
